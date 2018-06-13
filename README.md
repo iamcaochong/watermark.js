@@ -23,3 +23,6 @@ watermarks.init({id:'demo_div',lean:true,fontSize:20,fontFamily:'Georgia',fontCo
 		.addPoints({l:40,d:3,p:0,color:'#b5b5b5',transparent:50, content:'01234568'})
 		.draw();
 ```
+
+### Demo ###
+This is an [example link](https://iamcaochong.github.io/).
