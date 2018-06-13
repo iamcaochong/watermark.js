@@ -1,10 +1,12 @@
 watermark.js
 ========
-[![License][license-badge]][license-badge-url]
+[![license](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/iamcaochong/watermark.js/blob/master/LICENSE)
 
 ### Usage ###
 
 ```html
+<div id="demo_div" style="width: 1300px; height: 1400px;"></div>
+...
 <script src="watermark.js" charset="utf-8"></script>
 ```
 
