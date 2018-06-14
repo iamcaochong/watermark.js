@@ -282,6 +282,11 @@ var watermarks = {
 		 * 
 		 */
 		o.addPoints = function(obj){
+            obj.l=isNaN(obj.l)?40:parseInt(obj.l);
+            obj.d=isNaN(obj.d)?0:parseInt(obj.d);
+            obj.p=isNaN(obj.p)?0:parseInt(obj.p);
+            obj.transparent=isNaN(obj.transparent)?50:parseInt(obj.transparent);
+
 			o.points = [];
 			if (validLatticePointContent(obj.content)) {//检查点阵内容
 				var l = obj.l;
